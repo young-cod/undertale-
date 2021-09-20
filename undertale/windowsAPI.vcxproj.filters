@@ -1,0 +1,526 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="2DGameFramework">
+      <UniqueIdentifier>{6f3d1e45-ab86-42a7-9a61-2bd45cd7872c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround">
+      <UniqueIdentifier>{95982806-068a-439b-ba72-8cb93f3609f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\SingletonBase">
+      <UniqueIdentifier>{fab0ad69-58ad-46bb-984d-736d10eee0f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\Manager">
+      <UniqueIdentifier>{05d340ae-7cae-42ce-831b-ae2b80a9b8c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\image">
+      <UniqueIdentifier>{161a019f-83fb-4aa5-a2bd-53b11c8888ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\Utils">
+      <UniqueIdentifier>{6649f313-dbf4-4ec9-afff-24f47b1a709e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\timer">
+      <UniqueIdentifier>{903124e9-0a6f-4f4f-8a9b-cc25c6f3482b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\animation">
+      <UniqueIdentifier>{206ac15a-4721-4c12-93be-e176c2715a13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\D2DRenderer">
+      <UniqueIdentifier>{1f06f2e0-c3bd-4a9c-bad1-d0e16a21ee0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\txtData">
+      <UniqueIdentifier>{431e51a5-80a3-453e-b6b4-0a46c07862b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\player">
+      <UniqueIdentifier>{601a1978-5fbd-4737-ba65-3e2f872d9050}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\enemy">
+      <UniqueIdentifier>{d3532a44-2321-4dc7-99c0-ef2ea278cf6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\stage">
+      <UniqueIdentifier>{04e69a46-cbfd-4c5e-b051-7a1828f137be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\stage\stageset">
+      <UniqueIdentifier>{31eba3f3-0f11-4fde-8780-ac2a31bb50b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\stage\stage1~">
+      <UniqueIdentifier>{becce4fe-0af0-42e1-8156-783b93119572}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\UI">
+      <UniqueIdentifier>{01c4329c-e301-4d30-8137-ddf5d2f5d6fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\enemy\undyne">
+      <UniqueIdentifier>{18c3812e-13d9-45a8-832e-ebbbbfe039fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\enemy\muffet">
+      <UniqueIdentifier>{9a4a88b5-c418-4def-93ad-ccd3a6d3aa6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\enemy\sans">
+      <UniqueIdentifier>{458d76e8-c998-4ad3-b596-5028cc0f2f6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\enemy\asriel">
+      <UniqueIdentifier>{b82fece0-71e3-4fb5-8295-006d652d013b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\enemy\asriel\pattern">
+      <UniqueIdentifier>{d2e356dd-13d8-4cfa-9601-be3ff1a96ca2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\bullet">
+      <UniqueIdentifier>{9df25bbb-3fa8-4245-b718-1f4039d1a740}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\enemy\sans\sans_pattern">
+      <UniqueIdentifier>{5fc903ed-7be4-463c-b5d2-e562202dfe00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\progressBar">
+      <UniqueIdentifier>{ee62a098-ef97-4b9d-8456-fac2e92e0b42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\test">
+      <UniqueIdentifier>{bf6123cb-9085-4bbd-8368-fdd86f0c2103}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\enemy\muffet\muffetState">
+      <UniqueIdentifier>{ac945bf3-216b-4f19-8c79-fec191e0d1fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\enemy\muffet\muffetState\base">
+      <UniqueIdentifier>{b8a7251e-0523-4c8d-a5c0-3108fba28554}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="windowsAPI.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="gameNode.h">
+      <Filter>2DGameFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="playGround.h">
+      <Filter>playGround</Filter>
+    </ClInclude>
+    <ClInclude Include="singletonBase.h">
+      <Filter>2DGameFramework\SingletonBase</Filter>
+    </ClInclude>
+    <ClInclude Include="keyManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="image.h">
+      <Filter>2DGameFramework\image</Filter>
+    </ClInclude>
+    <ClInclude Include="imageManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="txtData.h">
+      <Filter>2DGameFramework\txtData</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>2DGameFramework\timer</Filter>
+    </ClInclude>
+    <ClInclude Include="timeManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="animation.h">
+      <Filter>2DGameFramework\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="soundManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="sceneManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="D2DRenderer.h">
+      <Filter>2DGameFramework\D2DRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="LibraryHeader.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>2DGameFramework\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="vector2.h">
+      <Filter>2DGameFramework\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="line.h">
+      <Filter>2DGameFramework\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>playGround\player</Filter>
+    </ClInclude>
+    <ClInclude Include="enemyManager.h">
+      <Filter>playGround\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="stageManager.h">
+      <Filter>playGround\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="battleUI.h">
+      <Filter>playGround\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="commonMacroFunction.h">
+      <Filter>2DGameFramework\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="randomFunction.h">
+      <Filter>2DGameFramework\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="iniDataManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="stageRect.h">
+      <Filter>playGround\stage\stageset</Filter>
+    </ClInclude>
+    <ClInclude Include="stage2.h">
+      <Filter>playGround\stage\stage1~</Filter>
+    </ClInclude>
+    <ClInclude Include="startStage.h">
+      <Filter>playGround\stage\stage1~</Filter>
+    </ClInclude>
+    <ClInclude Include="stage3.h">
+      <Filter>playGround\stage\stage1~</Filter>
+    </ClInclude>
+    <ClInclude Include="stage4.h">
+      <Filter>playGround\stage\stage1~</Filter>
+    </ClInclude>
+    <ClInclude Include="stage5.h">
+      <Filter>playGround\stage\stage1~</Filter>
+    </ClInclude>
+    <ClInclude Include="stage6.h">
+      <Filter>playGround\stage\stage1~</Filter>
+    </ClInclude>
+    <ClInclude Include="stage7.h">
+      <Filter>playGround\stage\stage1~</Filter>
+    </ClInclude>
+    <ClInclude Include="cameraManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="undybattle.h">
+      <Filter>playGround\enemy\undyne</Filter>
+    </ClInclude>
+    <ClInclude Include="undyne.h">
+      <Filter>playGround\enemy\undyne</Filter>
+    </ClInclude>
+    <ClInclude Include="muffet.h">
+      <Filter>playGround\enemy\muffet</Filter>
+    </ClInclude>
+    <ClInclude Include="asriel.h">
+      <Filter>playGround\enemy\asriel</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet.h">
+      <Filter>playGround\bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="asrielStateManager.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="saveLoadManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="sansBattle.h">
+      <Filter>playGround\enemy\sans</Filter>
+    </ClInclude>
+    <ClInclude Include="sans_state.h">
+      <Filter>playGround\enemy\sans\sans_pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="sans_state_attack1.h">
+      <Filter>playGround\enemy\sans\sans_pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="sans_state_attack2.h">
+      <Filter>playGround\enemy\sans\sans_pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="sans_state_attack3.h">
+      <Filter>playGround\enemy\sans\sans_pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="sans_state_attack4.h">
+      <Filter>playGround\enemy\sans\sans_pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="sans_state_idle.h">
+      <Filter>playGround\enemy\sans\sans_pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="title.h">
+      <Filter>playGround\stage\stage1~</Filter>
+    </ClInclude>
+    <ClInclude Include="bulletManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="progressBar.h">
+      <Filter>2DGameFramework\progressBar</Filter>
+    </ClInclude>
+    <ClInclude Include="testScene.h">
+      <Filter>playGround\test</Filter>
+    </ClInclude>
+    <ClInclude Include="sans_state_attack6.h">
+      <Filter>playGround\enemy\sans\sans_pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="sans_state_attack5.h">
+      <Filter>playGround\enemy\sans\sans_pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="muffetBattle.h">
+      <Filter>playGround\enemy\muffet</Filter>
+    </ClInclude>
+    <ClInclude Include="muffetIdle.h">
+      <Filter>playGround\enemy\muffet\muffetState</Filter>
+    </ClInclude>
+    <ClInclude Include="muffetPattern1.h">
+      <Filter>playGround\enemy\muffet\muffetState</Filter>
+    </ClInclude>
+    <ClInclude Include="muffetPattern2.h">
+      <Filter>playGround\enemy\muffet\muffetState</Filter>
+    </ClInclude>
+    <ClInclude Include="muffetPattern3.h">
+      <Filter>playGround\enemy\muffet\muffetState</Filter>
+    </ClInclude>
+    <ClInclude Include="muffetPattern4.h">
+      <Filter>playGround\enemy\muffet\muffetState</Filter>
+    </ClInclude>
+    <ClInclude Include="muffetStateBase.h">
+      <Filter>playGround\enemy\muffet\muffetState\base</Filter>
+    </ClInclude>
+    <ClInclude Include="muffetPurple.h">
+      <Filter>playGround\enemy\muffet\muffetState</Filter>
+    </ClInclude>
+    <ClInclude Include="muffetPattern5.h">
+      <Filter>playGround\enemy\muffet\muffetState</Filter>
+    </ClInclude>
+    <ClInclude Include="invenManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="undyneFireArrowState.h">
+      <Filter>playGround\enemy\undyne</Filter>
+    </ClInclude>
+    <ClInclude Include="undyneIdle.h">
+      <Filter>playGround\enemy\undyne</Filter>
+    </ClInclude>
+    <ClInclude Include="undyneState.h">
+      <Filter>playGround\enemy\undyne</Filter>
+    </ClInclude>
+    <ClInclude Include="undynePattern2.h">
+      <Filter>playGround\enemy\undyne</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="windowsAPI.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="gameNode.cpp">
+      <Filter>2DGameFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="playGround.cpp">
+      <Filter>playGround</Filter>
+    </ClCompile>
+    <ClCompile Include="keyManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="image.cpp">
+      <Filter>2DGameFramework\image</Filter>
+    </ClCompile>
+    <ClCompile Include="imageManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="txtData.cpp">
+      <Filter>2DGameFramework\txtData</Filter>
+    </ClCompile>
+    <ClCompile Include="timer.cpp">
+      <Filter>2DGameFramework\timer</Filter>
+    </ClCompile>
+    <ClCompile Include="timeManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="animation.cpp">
+      <Filter>2DGameFramework\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="soundManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="D2DRenderer.cpp">
+      <Filter>2DGameFramework\D2DRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="D2DRenderer+Draw.cpp">
+      <Filter>2DGameFramework\D2DRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>헤더 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>2DGameFramework\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="vector2.cpp">
+      <Filter>2DGameFramework\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="line.cpp">
+      <Filter>2DGameFramework\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>playGround\player</Filter>
+    </ClCompile>
+    <ClCompile Include="enemyManager.cpp">
+      <Filter>playGround\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="stageManager.cpp">
+      <Filter>playGround\stage</Filter>
+    </ClCompile>
+    <ClCompile Include="battleUI.cpp">
+      <Filter>playGround\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="iniDataManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="stageRect.cpp">
+      <Filter>playGround\stage\stageset</Filter>
+    </ClCompile>
+    <ClCompile Include="stage2.cpp">
+      <Filter>playGround\stage\stage1~</Filter>
+    </ClCompile>
+    <ClCompile Include="startStage.cpp">
+      <Filter>playGround\stage\stage1~</Filter>
+    </ClCompile>
+    <ClCompile Include="stage3.cpp">
+      <Filter>playGround\stage\stage1~</Filter>
+    </ClCompile>
+    <ClCompile Include="stage4.cpp">
+      <Filter>playGround\stage\stage1~</Filter>
+    </ClCompile>
+    <ClCompile Include="stage5.cpp">
+      <Filter>playGround\stage\stage1~</Filter>
+    </ClCompile>
+    <ClCompile Include="stage6.cpp">
+      <Filter>playGround\stage\stage1~</Filter>
+    </ClCompile>
+    <ClCompile Include="stage7.cpp">
+      <Filter>playGround\stage\stage1~</Filter>
+    </ClCompile>
+    <ClCompile Include="cameraManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="undybattle.cpp">
+      <Filter>playGround\enemy\undyne</Filter>
+    </ClCompile>
+    <ClCompile Include="undyne.cpp">
+      <Filter>playGround\enemy\undyne</Filter>
+    </ClCompile>
+    <ClCompile Include="muffet.cpp">
+      <Filter>playGround\enemy\muffet</Filter>
+    </ClCompile>
+    <ClCompile Include="asriel.cpp">
+      <Filter>playGround\enemy\asriel</Filter>
+    </ClCompile>
+    <ClCompile Include="bullet.cpp">
+      <Filter>playGround\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="asrielStateManager.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="saveLoadManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="sansBattle.cpp">
+      <Filter>playGround\enemy\sans</Filter>
+    </ClCompile>
+    <ClCompile Include="sans_state_idle.cpp">
+      <Filter>playGround\enemy\sans\sans_pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="sans_state.cpp">
+      <Filter>playGround\enemy\sans\sans_pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="sans_state_attack1.cpp">
+      <Filter>playGround\enemy\sans\sans_pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="sans_state_attack2.cpp">
+      <Filter>playGround\enemy\sans\sans_pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="sans_state_attack3.cpp">
+      <Filter>playGround\enemy\sans\sans_pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="sans_state_attack4.cpp">
+      <Filter>playGround\enemy\sans\sans_pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="title.cpp">
+      <Filter>playGround\stage\stage1~</Filter>
+    </ClCompile>
+    <ClCompile Include="bulletManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="progressBar.cpp">
+      <Filter>2DGameFramework\progressBar</Filter>
+    </ClCompile>
+    <ClCompile Include="testScene.cpp">
+      <Filter>playGround\test</Filter>
+    </ClCompile>
+    <ClCompile Include="sans_state_attack6.cpp">
+      <Filter>playGround\enemy\sans\sans_pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="sans_state_attack5.cpp">
+      <Filter>playGround\enemy\sans\sans_pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="muffetBattle.cpp">
+      <Filter>playGround\enemy\muffet</Filter>
+    </ClCompile>
+    <ClCompile Include="muffetIdle.cpp">
+      <Filter>playGround\enemy\muffet\muffetState</Filter>
+    </ClCompile>
+    <ClCompile Include="muffetPattern1.cpp">
+      <Filter>playGround\enemy\muffet\muffetState</Filter>
+    </ClCompile>
+    <ClCompile Include="muffetPattern2.cpp">
+      <Filter>playGround\enemy\muffet\muffetState</Filter>
+    </ClCompile>
+    <ClCompile Include="muffetPattern3.cpp">
+      <Filter>playGround\enemy\muffet\muffetState</Filter>
+    </ClCompile>
+    <ClCompile Include="muffetPattern4.cpp">
+      <Filter>playGround\enemy\muffet\muffetState</Filter>
+    </ClCompile>
+    <ClCompile Include="muffetStateBase.cpp">
+      <Filter>playGround\enemy\muffet\muffetState\base</Filter>
+    </ClCompile>
+    <ClCompile Include="muffetPurple.cpp">
+      <Filter>playGround\enemy\muffet\muffetState</Filter>
+    </ClCompile>
+    <ClCompile Include="muffetPattern5.cpp">
+      <Filter>playGround\enemy\muffet\muffetState</Filter>
+    </ClCompile>
+    <ClCompile Include="invenManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="undyneState.cpp">
+      <Filter>playGround\enemy\undyne</Filter>
+    </ClCompile>
+    <ClCompile Include="undyneFireArrowState.cpp">
+      <Filter>playGround\enemy\undyne</Filter>
+    </ClCompile>
+    <ClCompile Include="undyneIdle.cpp">
+      <Filter>playGround\enemy\undyne</Filter>
+    </ClCompile>
+    <ClCompile Include="undynePattern2.cpp">
+      <Filter>playGround\enemy\undyne</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="windowsAPI.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="windowsAPI.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
